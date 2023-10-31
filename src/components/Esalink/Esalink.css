@@ -21,11 +21,11 @@
 }
 .isoimg {
   position: absolute;
-  margin-left: 18%;
+  margin-left: 7%;
   margin-top: 3%;
 }
 .isi {
-  height: 55px;
+  height: 70px;
   filter: grayscale(1) invert(1);
 }
 .maintext {
@@ -130,9 +130,12 @@ img {
   margin-right: 30%;
 }
 .mainimg {
-  position: absolute;
+  position: relative;
   margin-top: -35%;
   margin-left: 70%;
+  overflow: hidden;
+  display: block;
+  height: 530px;
 }
 .mm {
   height: 500px;
